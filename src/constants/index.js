@@ -28,6 +28,11 @@ import {
     freelancer
 } from "../assets/icons";
 
+import ichat from "../assets/icons/ichat.png"
+import vidTube from "../assets/icons/vidTube.png"
+import noteWhril from "../assets/icons/noteWhril.png"
+import newsApp from "../assets/icons/newsApp.png"
+
 export const skills = [
     {
         imageUrl: css,
@@ -69,16 +74,16 @@ export const skills = [
         name: "Angular",
         type: "Animation",
     },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
+    // {
+    //     imageUrl: mui,
+    //     name: "Material-UI",
+    //     type: "Frontend",
+    // },
+    // {
+    //     imageUrl: nextjs,
+    //     name: "Next.js",
+    //     type: "Frontend",
+    // },
     {
         imageUrl: nodejs,
         name: "Node.js",
@@ -89,11 +94,11 @@ export const skills = [
         name: "React",
         type: "Frontend",
     },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
+    // {
+    //     imageUrl: redux,
+    //     name: "Redux",
+    //     type: "State Management",
+    // },
     {
         imageUrl: sass,
         name: "Sass",
@@ -138,18 +143,18 @@ export const experiences = [
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
-    {
-        title: "Freelancer",
-        company_name: "",
-        icon: freelancer,
-        iconBg: "#a2d2ff",
-        date: "May 2023 - Present",
-        points: [
-            "Developing and maintaining CI/CD integrated web applications using React.js and other related technologies.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Getting feedback from client.",
-        ],
-    },
+    // {
+    //     title: "Freelancer",
+    //     company_name: "",
+    //     icon: freelancer,
+    //     iconBg: "#a2d2ff",
+    //     date: "May 2023 - Present",
+    //     points: [
+    //         "Developing and maintaining CI/CD integrated web applications using React.js and other related technologies.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Getting feedback from client.",
+    //     ],
+    // },
 ];
 
 export const socialLinks = [
@@ -172,45 +177,31 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: ichat,
+        theme: 'btn-back-blue',
+        name: 'Ichat',
+        description: 'Developed a A real-time, secure and scalable chat app designed for users to connect with each other.',
+        link: 'https://github.com/ShradhaChauhan/ichat',
+    },
+    {
+        iconUrl: vidTube,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/ShradhaChauhan/pricewise',
+        name: 'VidTube',
+        description: 'Created a full-stack replica of the popular platform "YouTube," enabling users to post and engage in online content.',
+        link: 'https://github.com/ShradhaChauhan/youtube-clone',
     },
     {
-        iconUrl: threads,
-        theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/ShradhaChauhan/threads',
-    },
-    // {
-    //     iconUrl: car,
-    //     theme: 'btn-back-blue',
-    //     name: 'Car Finding App',
-    //     description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-    //     link: 'https://github.com/ShradhaChauhan/project_next13_car_showcase',
-    // },
-    {
-        iconUrl: snapgram,
+        iconUrl: noteWhril,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/ShradhaChauhan/social_media_app',
+        name: 'NoteWhril',
+        description: 'A tool designed for users to capture, organize and store information in the form of notes.',
+        link: 'https://github.com/ShradhaChauhan/notewhril',
     },
-    // {
-    //     iconUrl: estate,
-    //     theme: 'btn-back-black',
-    //     name: 'Real-Estate Application',
-    //     description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-    //     link: 'https://github.com/ShradhaChauhan/projects_realestate',
-    // },
     {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/ShradhaChauhan/project_ai_summarizer',
+        iconUrl: newsApp,
+        theme: 'btn-back-green',
+        name: 'News App',
+        description: 'Read daily news online using our E-Paper hassle free on your device.',
+        link: 'https://github.com/ShradhaChauhan/news_app',
     }
 ];
