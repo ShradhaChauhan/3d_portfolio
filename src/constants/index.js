@@ -12,6 +12,7 @@ import {
     linkedin,
     mongodb,
     angular,
+    react_native,
     mui,
     nextjs,
     nodejs,
@@ -25,7 +26,20 @@ import {
     threads,
     typescript,
     cicada,
-    freelancer
+    freelancer,
+    postman,
+    jquery,
+    unity3D,
+    net_core,
+    csharp,
+    postgresql,
+    aws,
+    azure,
+    firebase,
+    bootstrap,
+    pm2,
+    syncfusion,
+    threeJs
 } from "../assets/icons";
 
 import ichat from "../assets/icons/ichat.png"
@@ -34,6 +48,11 @@ import noteWhril from "../assets/icons/noteWhril.png"
 import newsApp from "../assets/icons/newsApp.png"
 
 export const skills = [
+    {
+        imageUrl: html,
+        name: "HTML",
+        type: "Frontend",
+    },
     {
         imageUrl: css,
         name: "CSS",
@@ -53,15 +72,35 @@ export const skills = [
         imageUrl: github,
         name: "GitHub",
         type: "Version Control",
-    },
-    {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
+    },    
     {
         imageUrl: javascript,
         name: "JavaScript",
+        type: "Frontend",
+    },
+    {
+        imageUrl: react,
+        name: "React",
+        type: "Frontend",
+    },
+    {
+        imageUrl: redux,
+        name: "Redux",
+        type: "State Management",
+    },
+    {
+        imageUrl: react_native,
+        name: "React Native",
+        type: "Frontend",
+    },
+    {
+        imageUrl: angular,
+        name: "Angular",
+        type: "Animation",
+    },
+    {
+        imageUrl: typescript,
+        name: "TypeScript",
         type: "Frontend",
     },
     {
@@ -70,35 +109,15 @@ export const skills = [
         type: "Database",
     },
     {
-        imageUrl: angular,
-        name: "Angular",
-        type: "Animation",
+        imageUrl: postman,
+        name: "Postman",
+        type: "Testing Tool",
     },
-    // {
-    //     imageUrl: mui,
-    //     name: "Material-UI",
-    //     type: "Frontend",
-    // },
-    // {
-    //     imageUrl: nextjs,
-    //     name: "Next.js",
-    //     type: "Frontend",
-    // },
     {
         imageUrl: nodejs,
         name: "Node.js",
         type: "Backend",
-    },
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    // {
-    //     imageUrl: redux,
-    //     name: "Redux",
-    //     type: "State Management",
-    // },
+    },  
     {
         imageUrl: sass,
         name: "Sass",
@@ -110,9 +129,64 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: typescript,
-        name: "TypeScript",
+        imageUrl: bootstrap,
+        name: "Bootstrap",
+        type: "Styling",
+    },
+    {
+        imageUrl: jquery,
+        name: "JQuery",
         type: "Frontend",
+    },
+    {
+        imageUrl: unity3D,
+        name: "Unity3D",
+        type: "Frontend",
+    },
+    {
+        imageUrl: net_core,
+        name: ".Net Core",
+        type: "Backend",
+    },
+    {
+        imageUrl: postgresql,
+        name: "PostgreSQL",
+        type: "Database",
+    },
+    {
+        imageUrl: csharp,
+        name: "C#",
+        type: "Backend",
+    },
+    {
+        imageUrl: aws,
+        name: "AWS",
+        type: "Cloud Services",
+    },
+    {
+        imageUrl: azure,
+        name: "Microsoft Azure",
+        type: "Cloud Services",
+    },
+    {
+        imageUrl: firebase,
+        name: "Firebase",
+        type: "Cloud Services",
+    },
+    {
+        imageUrl: pm2,
+        name: "PM2",
+        type: "Process Manager",
+    }, 
+    {
+        imageUrl: syncfusion,
+        name: "Syncfusion",
+        type: "UI Components",
+    },
+    {
+        imageUrl: threeJs,
+        name: "Three.js",
+        type: "Javascript Library",
     }
 ];
 
@@ -124,10 +198,10 @@ export const experiences = [
         iconBg: "#a2eb9d",
         date: "April 2021 - July 2021",
         points: [
-            "Developing and maintaining web applications using Javascript and other related technologies.",
-            "Collaborating with other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Built an angular application with AWS connectivity.",
+            "Worked on Live projects in guidance of senior developers.",
+            "Ensured to finish the assigned tasks within alloted time frame.",
+            "Took part in code review.",
         ],
     },
     {
@@ -137,7 +211,7 @@ export const experiences = [
         iconBg: "#fbc3bc",
         date: "July 2021 - May 2023",
         points: [
-            "Developing and maintaining web applications using Javascript, Angular, Node.js, SQL and other related technologies.",
+            "Developing and maintaining CI/CD integrated web applications using Javascript, Angular, Node.js, SQL and other related technologies.",
             "Collaborating with other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",

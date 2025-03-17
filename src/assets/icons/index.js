@@ -28,6 +28,20 @@ import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import cicada from './cicada.png'
 import freelancer from './freelancer.png'
+import react_native from './react_native.png'
+import postman from './postman.png'
+import jquery from './jquery.png'
+import unity3D from './unity3D.png'
+import net_core from './net_core.png'
+import csharp from './csharp.png'
+import postgresql from './postgresql.png'
+import aws from './aws.png'
+import azure from './azure.png'
+import firebase from './firebase.png'
+import bootstrap from './bootstrap.png'
+import pm2 from './pm2.png'
+import syncfusion from './syncfusion.png'
+import threeJs from './threeJs.png'
 
 export {
     css,
@@ -59,5 +73,19 @@ export {
     soundon,
     soundoff,
     cicada,
-    freelancer
+    freelancer,
+    react_native,
+    postman,
+    jquery,
+    unity3D,
+    net_core,
+    csharp,
+    postgresql,
+    aws,
+    azure,
+    firebase,
+    bootstrap,
+    pm2,
+    syncfusion,
+    threeJs
 }
