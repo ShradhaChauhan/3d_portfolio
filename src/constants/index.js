@@ -196,7 +196,7 @@ export const experiences = [
         company_name: "Cicada Green Consultants",
         icon: cicada,
         iconBg: "#a2eb9d",
-        date: "April 2021 - July 2021",
+        date: "April 2021",
         points: [
             "Built an angular application with AWS connectivity.",
             "Worked on Live projects in guidance of senior developers.",
