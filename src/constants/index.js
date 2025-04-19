@@ -210,7 +210,7 @@ export const experiences = [
         company_name: "Cicada Green Consultants",
         icon: cicada,
         iconBg: "#fbc3bc",
-        date: "July 2021 - May 2024",
+        date: "July 2021 - May 2023",
         points: [
             "Developing and maintaining CI/CD integrated web applications using Javascript, Angular, Node.js, SQL and other related technologies.",
             "Collaborating with other developers to create high-quality products.",
