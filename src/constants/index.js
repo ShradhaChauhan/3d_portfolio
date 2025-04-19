@@ -46,6 +46,7 @@ import ichat from "../assets/icons/ichat.png"
 import vidTube from "../assets/icons/vidTube.png"
 import noteWhril from "../assets/icons/noteWhril.png"
 import newsApp from "../assets/icons/newsApp.png"
+import simpleMeditationLogo from '../assets/icons/simpleMeditationLogo.png'
 
 export const skills = [
     {
@@ -277,5 +278,12 @@ export const projects = [
         name: 'News App',
         description: 'Read daily news online using our E-Paper hassle free on your device.',
         link: 'https://github.com/ShradhaChauhan/news_app',
+    },    
+    {
+        iconUrl: simpleMeditationLogo,
+        theme: 'btn-back-yellow',
+        name: 'Refly',
+        description: 'It combines uplifting quotes and soothing audio sessions to help you unwind, reflect, and reset.  Set custom timers for guided or unguided meditation, and let inspirational words and sounds bring balance to your day.',
+        link: 'https://github.com/ShradhaChauhan/refly',
     }
 ];
