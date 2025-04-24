@@ -193,7 +193,7 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "Internship",
+        title: "Software Engineer Intern",
         company_name: "Cicada Green Consultants",
         icon: cicada,
         iconBg: "#a2eb9d",
@@ -206,7 +206,7 @@ export const experiences = [
         ],
     },
     {
-        title: "Full-stack Developer",
+        title: "Software Engineer",
         company_name: "Cicada Green Consultants",
         icon: cicada,
         iconBg: "#fbc3bc",

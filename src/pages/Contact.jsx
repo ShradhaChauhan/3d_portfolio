@@ -118,6 +118,9 @@ const Contact = () => {
               {isLoading ? "Sending..." : "Send Message" }
           </button>
         </form>
+        <hr/>
+        <p className='text-center'>OR</p>
+        <p className='text-center'><b>Contact at</b> - shradhachauhan31433@gmail.com</p>
       </div>
       <div className='lg:w-1/2 w-full lg:h-auto md:h-[550px] h-[350px]'>
         <Canvas camera={{
