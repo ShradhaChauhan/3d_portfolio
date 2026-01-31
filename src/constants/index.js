@@ -77,7 +77,7 @@ export const skills = [
         imageUrl: github,
         name: "GitHub",
         type: "Version Control",
-    },    
+    },
     {
         imageUrl: javascript,
         name: "JavaScript",
@@ -122,7 +122,7 @@ export const skills = [
         imageUrl: nodejs,
         name: "Node.js",
         type: "Backend",
-    },  
+    },
     {
         imageUrl: sass,
         name: "Sass",
@@ -182,7 +182,7 @@ export const skills = [
         imageUrl: pm2,
         name: "PM2",
         type: "Process Manager",
-    }, 
+    },
     {
         imageUrl: syncfusion,
         name: "Syncfusion",
@@ -294,7 +294,7 @@ export const projects = [
         name: 'News App',
         description: 'Read daily news online using our E-Paper hassle free on your device.',
         link: 'https://github.com/ShradhaChauhan/news_app',
-    },    
+    },
     {
         iconUrl: simpleMeditationLogo,
         theme: 'btn-back-yellow',
@@ -307,6 +307,6 @@ export const projects = [
         theme: 'btn-back-blue',
         name: 'Genie',
         description: 'Genie is a Gmail-integrated Generative AI assistant that helps users manage emails effortlessly by summarizing conversations, drafting smart replies, and sending emails with user approval—saving time while keeping full control.',
-        link: 'https://github.com/ShradhaChauhan/genie',
+        link: 'https://github.com/ShradhaChauhan/Genie',
     }
 ];
