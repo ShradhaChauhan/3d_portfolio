@@ -42,6 +42,10 @@ import bootstrap from './bootstrap.png'
 import pm2 from './pm2.png'
 import syncfusion from './syncfusion.png'
 import threeJs from './threeJs.png'
+import cursor from './cursor.png'
+import copilot from './copilot.png'
+import lit_logo from './lit_logo.png'
+import genie from './genie.png'
 
 export {
     css,
@@ -87,5 +91,9 @@ export {
     bootstrap,
     pm2,
     syncfusion,
-    threeJs
+    threeJs,
+    cursor,
+    copilot,
+    lit_logo,
+    genie
 }

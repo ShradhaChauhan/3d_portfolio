@@ -1,5 +1,7 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
+    cursor,
+    copilot,
     car,
     contact,
     css,
@@ -39,7 +41,9 @@ import {
     bootstrap,
     pm2,
     syncfusion,
-    threeJs
+    threeJs,
+    lit_logo,
+    genie
 } from "../assets/icons";
 
 import ichat from "../assets/icons/ichat.png"
@@ -188,6 +192,16 @@ export const skills = [
         imageUrl: threeJs,
         name: "Three.js",
         type: "Javascript Library",
+    },
+    {
+        imageUrl: cursor,
+        name: "Cursor",
+        type: "AI Assistant",
+    },
+    {
+        imageUrl: copilot,
+        name: "Copilot",
+        type: "AI Assistant",
     }
 ];
 
@@ -218,18 +232,20 @@ export const experiences = [
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
-    // {
-    //     title: "Freelancer",
-    //     company_name: "",
-    //     icon: freelancer,
-    //     iconBg: "#a2d2ff",
-    //     date: "May 2023 - Present",
-    //     points: [
-    //         "Developing and maintaining CI/CD integrated web applications using React.js and other related technologies.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //         "Getting feedback from client.",
-    //     ],
-    // },
+    {
+        title: "Software Engineer",
+        company_name: "LIT INDIA PVT LTD",
+        icon: lit_logo,
+        iconBg: "#a2d2ff",
+        date: "June 2025 - Present",
+        points: [
+            "Developing and scaling CI/CD-integrated web applications using React.js, focusing on performance, maintainability, and clean component architecture.",
+            "Building responsive and user-friendly interfaces with cross-browser compatibility, ensuring seamless experience across devices.",
+            "Collaborating closely with product owners and stakeholders to gather requirements, incorporate feedback, and deliver iterative improvements.",
+            "Implementing real-time validations and business logic to reduce manual errors and improve overall system reliability.",
+            "Leveraging AI-assisted development tools such as Cursor to refactor code, accelerate development, and enhance code quality."
+        ],
+    },
 ];
 
 export const socialLinks = [
@@ -285,5 +301,12 @@ export const projects = [
         name: 'Refly',
         description: 'It combines uplifting quotes and soothing audio sessions to help you unwind, reflect, and reset.  Set custom timers for guided or unguided meditation, and let inspirational words and sounds bring balance to your day.',
         link: 'https://github.com/ShradhaChauhan/refly',
+    },
+    {
+        iconUrl: genie,
+        theme: 'btn-back-blue',
+        name: 'Genie',
+        description: 'Genie is a Gmail-integrated Generative AI assistant that helps users manage emails effortlessly by summarizing conversations, drafting smart replies, and sending emails with user approval—saving time while keeping full control.',
+        link: 'https://github.com/ShradhaChauhan/genie',
     }
 ];
